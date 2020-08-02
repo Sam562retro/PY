@@ -1,5 +1,5 @@
 with open("binary", "bw") as binFi:
-    for i in range(100):
+    for i in range(10):
         a = bytes(i)
         binFi.write(a)
 
